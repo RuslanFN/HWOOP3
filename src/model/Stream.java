@@ -1,3 +1,6 @@
+import model.Group;
+import model.StreamIterator;
+
 import java.util.Iterator;
 import java.util.List;
 

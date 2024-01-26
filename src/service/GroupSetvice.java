@@ -15,7 +15,7 @@ public class GroupSetvice {
     }
     public List <Student> getSortedGroupByName(){
         List<Student> studentList = new ArrayList<>(group.getStudentList());
-        Collections.sort(studentList, new StudentComparator());
+        Collections.sort(studentList, new UserComparator());
         return studentList;
     }
 

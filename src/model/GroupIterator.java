@@ -1,3 +1,7 @@
+package controller;
+
+import model.Group;
+
 import java.util.Iterator;
 import java.util.List;
 

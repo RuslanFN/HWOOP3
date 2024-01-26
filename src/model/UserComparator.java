@@ -1,8 +1,8 @@
 import java.util.Comparator;
 
-public class StudentComparator implements Comparator<Student> {
+public class UserComparator<T extends User> implements Comparator<T> {
     @Override
-    public int compare(Student o1, Student o2) {
+    public int compare(T o1, T o2) {
         if (o1.getSecondName().compareTo(o2.getSecondName()) == 0){
             if (o1.getFirstName().compareTo(o2.getFirstName()) == 0) {
                 if (o1.getLastName().compareTo(o2.getLastName()) == 0) {
